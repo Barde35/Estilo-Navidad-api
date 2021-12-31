@@ -32,6 +32,10 @@ router.get('/product/:id', (req, res) => {
         .catch((err) => res.send(err))
 });
 
+
+
+
+
 // router.patch('/product/:id', (req, res) => {
 //     const { id } = req.params;
 //     getClient((err, db) => {
